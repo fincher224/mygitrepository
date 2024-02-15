@@ -1,8 +1,8 @@
 # ДЗ №1
 ## ДЗ1
-<table BORDER="2" CELLPADDING="10" CELLSPACING="10" WIDTH="100%">
+<table>
     <thead>
-        <tr WIDTH=”800”>
+        <tr BORDER="2" CELLPADDING="10" CELLSPACING="10" WIDTH="100%">
             <th>Проект</th>
             <th>ID</th>
             <th>Требования</th>
