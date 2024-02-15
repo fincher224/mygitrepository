@@ -3,7 +3,7 @@
 <table style="width: 300px; table-layout: fixed>
     <thead>
         <tr>
-            <th td style="overflow: hidden>Проект</th>
+            <th style="overflow: hidden>Проект</th>
             <th>ID</th>
             <th>Требования</th>
             <th>Модуль</th>
