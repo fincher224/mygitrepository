@@ -1,6 +1,6 @@
 # ДЗ №1
 ## ДЗ1
-<table style="width: 300px; table-layout: fixed>
+<table style="width: 300px>
     <thead>
         <tr>
             <th>Проект</th>
