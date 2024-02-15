@@ -1,3 +1,2 @@
 # Основной README файл.
-Ссылки на ДЗ
-[ДЗ №1](C:\Users\finch\OneDrive\Документы\git.course\homework_1\readme.md)
+[ДЗ №1](https://github.com/YlabCourse/homework_example/blob/main/homework_1/README.md)
