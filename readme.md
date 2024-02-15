@@ -1,3 +1,3 @@
-# Git and git
+# Основной README файл.
 
 chash course for git
