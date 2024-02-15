@@ -3,7 +3,7 @@
 <table>
     <thead>
         <tr>
-            <th BORDER="2" CELLPADDING="10" CELLSPACING="10" WIDTH="100%">Проект</th>
+            <th>Проект</th>
             <th>ID</th>
             <th>Требования</th>
             <th>Модуль</th>
@@ -16,7 +16,7 @@
             <th>Статус прохождения</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody BORDER="2" CELLPADDING="10" CELLSPACING="10" WIDTH="100%">
         <tr>
             <td rowspan=4 align="center">Почтовая служба "no name"</td>
             <td rowspan=4 align="center">ID.1</td>
