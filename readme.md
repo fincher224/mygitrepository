@@ -1,2 +1,2 @@
 #  README
-[ДЗ 1](https://github.com/fincher224/mygitrepository/blob/master/homework№1/readme.md)
+[ДЗ 1](https://github.com/fincher224/mygitrepository/tree/master/homework№1)
