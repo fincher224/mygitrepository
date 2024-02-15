@@ -16,7 +16,7 @@
             <th>Статус прохождения</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody table-layout: auto>
         <tr>
             <td rowspan=4 align="center">Почтовая служба "no name"</td>
             <td rowspan=4 align="center">ID.1</td>
@@ -45,19 +45,3 @@
         </tr>
     </tbody>
 </table>
-table {
-    border: 1px solid green;
-    border-collapse: collapse;
-    width:100%;
-}
-
-table td {
-    border: 1px solid green;
-}
-
-table td.shrink {
-    white-space:nowrap
-}
-table td.expand {
-    width: 99%
-}
