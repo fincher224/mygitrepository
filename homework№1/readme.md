@@ -1,9 +1,9 @@
 # ДЗ №1
 ## ДЗ1
-<table table-layout: auto>
+<table style="width: 300px; table-layout: fixed>
     <thead>
         <tr>
-            <th>Проект</th>
+            <th td style="overflow: hidden>Проект</th>
             <th>ID</th>
             <th>Требования</th>
             <th>Модуль</th>
@@ -16,9 +16,9 @@
             <th>Статус прохождения</th>
         </tr>
     </thead>
-    <tbody table-layout: auto>
+    <tbody>
         <tr>
-            <td rowspan=4 align="center">Почтовая служба "no name" пппппппппппппппппппппппппппппппппппппппппппппппп</td>
+            <td style="overflow: hidden>Почтовая служба "no name"</td>
             <td rowspan=4 align="center">ID.1</td>
             <td rowspan=4 align="center">REQ1</td>
             <td rowspan=4 align="center">Отправка почты, Отправленные</td>
