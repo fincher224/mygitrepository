@@ -1,6 +1,6 @@
 # ДЗ №1
 ## ДЗ1
-<table WIDTH=”800”>
+<table WIDTH=”50%”>
     <thead>
         <tr >
             <th>Проект</th>
