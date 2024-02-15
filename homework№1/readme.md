@@ -18,7 +18,7 @@
     </thead>
     <tbody>
         <tr>
-            <td WIDTH="100%">Почтовая служба "no name"</td>
+            <td rowspan=4 align="center">Почтовая служба "no name"</td>
             <td rowspan=4 align="center">ID.1</td>
             <td rowspan=4 align="center">REQ1</td>
             <td rowspan=4 align="center">Отправка почты, Отправленные</td>
