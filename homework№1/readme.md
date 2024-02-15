@@ -2,8 +2,8 @@
 ## ДЗ1
 <table>
     <thead>
-        <tr BORDER="2" CELLPADDING="10" CELLSPACING="10" WIDTH="100%">
-            <th>Проект</th>
+        <tr>
+            <th BORDER="2" CELLPADDING="10" CELLSPACING="10" WIDTH="100%">Проект</th>
             <th>ID</th>
             <th>Требования</th>
             <th>Модуль</th>
