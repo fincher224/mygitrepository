@@ -16,9 +16,9 @@
             <th>Статус прохождения</th>
         </tr>
     </thead>
-    <tbody BORDER="2" CELLPADDING="10" CELLSPACING="10" WIDTH="100%">
+    <tbody>
         <tr>
-            <td rowspan=4 align="center">Почтовая служба "no name"</td>
+            <td BORDER="2" CELLPADDING="10" CELLSPACING="10" WIDTH="100%">Почтовая служба "no name"</td>
             <td rowspan=4 align="center">ID.1</td>
             <td rowspan=4 align="center">REQ1</td>
             <td rowspan=4 align="center">Отправка почты, Отправленные</td>
