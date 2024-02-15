@@ -1,8 +1,8 @@
 # ДЗ №1
 ## ДЗ1
-<table WIDTH=”50%”>
+<table WIDTH=”800”>
     <thead>
-        <tr >
+        <tr WIDTH=”800”>
             <th>Проект</th>
             <th>ID</th>
             <th>Требования</th>
