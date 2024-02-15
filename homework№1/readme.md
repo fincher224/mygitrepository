@@ -1,6 +1,6 @@
 # ДЗ №1
 ## ДЗ1
-<table WIDTH=”800”>
+<table BORDER="2" CELLPADDING="2" CELLSPACING="2" WIDTH="100%">
     <thead>
         <tr WIDTH=”800”>
             <th>Проект</th>
