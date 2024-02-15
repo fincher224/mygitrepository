@@ -1,2 +1,2 @@
-# Основной README файл.
-[ДЗ №1](https://github.com/YlabCourse/homework_example/blob/main/homework_1/README.md)
+#  README
+[ДЗ 1](https://github.com/fincher224/mygitrepository/blob/master/homework№1/readme.md)
