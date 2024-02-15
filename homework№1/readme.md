@@ -27,7 +27,7 @@
             <td rowspan=4 align="center">Средний</td>
             <td rowspan=4 align="center">PC, Yandex Browser Версия  23.9.2.888</td>
             <td rowspan=4 align="center">Быть авторизированным в почтовой системе "no name" </td>
-            <td rowspan=4 align="center">1.Зайти в раздел "почта"
+            <td rowspan=10 align="center">1.Зайти в раздел "почта"
 2.В левом верхнем углу нажать "написать письмо"
 3.В открывшейся форме заполнить поля:
 Кому
