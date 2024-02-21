@@ -62,3 +62,51 @@
 </table>
 
 ## Задание 2
+<table class="iksweb">
+	<tbody>
+		<tr>
+			<th>№</th>
+			<th>Язык</th>
+			<th>ОС</th>
+			<th>Браузер</th>
+		</tr>
+		<tr>
+			<th>1</th>
+			<th>En</th>
+			<th>Windows 10</th>
+			<th>Opera</th>
+		</tr>
+		<tr>
+			<th>2</th>
+			<th>En</th>
+			<th>Ubuntu 20.04</th>
+			<th>Firefox</th>
+		</tr>
+		<tr>
+			<th>3</th>
+			<th>Ru</th>
+			<th>Ubuntu 20.04</th>
+			<th>Opera</th>
+		</tr>
+		<tr>
+			<th>4</th>
+			<th>Ru</th>
+			<th>Windows 10</th>
+			<th>Firefox</th>
+		</tr>
+		<tr>
+			<th>5</th>
+			<th>En</th>
+			<th> Android 10</th>
+			<th>Chrome</th>
+		</tr>
+		<tr>
+			<th>6</th>
+			<th>Ru</th>
+			<th> Android 10</th>
+			<th>Chrome</th>
+		</tr>
+	</tbody>
+</table>
+
+## Задание 3
