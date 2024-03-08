@@ -1,7 +1,7 @@
 while True:
-    cont = 'y'
+    cont = ''
     try:
-        while cont == 'y':
+        while cont == '':
             a = float(input('Введите число: '))
             b = input('Введите операцию: ')
             c = float(input('Введите второе число: '))
@@ -23,12 +23,12 @@ while True:
                 print(f'Результат: {a == c}')
             else:
                 print('Некорректная операция')
-            cont = input('Нажмите любую клавишу чтобы продолжть: ')
+            cont = input('Нажмите Enter чтобы продолжть: ')
     except ValueError:
         print('Только числа!')
-        cont = input('Нажмите любую клавишу чтобы продолжить: ')
+        cont = input('Нажмите Enter чтобы продолжить: ')
         continue
     except ZeroDivisionError:
         print('На ноль делить нельзя!')
-        cont = input('Нажмите любую клавишу чтобы продолжить: ')
+        cont = input('Нажмите Enter чтобы продолжить: ')
         continue
