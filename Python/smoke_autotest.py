@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 from faker import Faker
 
 while True:
-    print("Приветствую тебя в нашем интернет - магазине\nВыбери один из следующих товаров и укажи его номер: 1 - Sauce Labs Backpack, 2 - Sauce Labs Bike Light, 3 - Sauce Labs Bolt T-Shirt, 4 - Sauce Labs Fleece Jacket, 5 - Sauce Labs Onesie, 6 - Test.allTheThings() T-Shirt (Red)")
+    print("\nChoose one of the following products and specify its number: 1 - Sauce Labs Backpack, 2 - Sauce Labs Bike Light, 3 - Sauce Labs Bolt T-Shirt, 4 - Sauce Labs Fleece Jacket, 5 - Sauce Labs Onesie, 6 - Test.allTheThings() T-Shirt (Red)")
     product = int(input())
     print(product)
 
@@ -30,12 +30,13 @@ while True:
 
     user_name = driver_g.find_element(By.XPATH, "//*[@class='input_error form_input']")
     user_name.send_keys('standard_user')
-    print('Input login - успешно')
+    print('Input login - success')
     user_pass = driver_g.find_element(By.CSS_SELECTOR, "#password")
     user_pass.send_keys('secret_sauce')
-    print('Input password - успешно')
+    print('Input password - success')
+    time.sleep(1)
     user_name.send_keys(Keys.RETURN)
-    print('Enter - успешно\n')
+    print('Enter - success\n')
 
     name_locator = driver_g.find_element(By.XPATH, f'(//div[@class="inventory_item"])[{product}]/div[2]/div/a/div')
     value_name_locator = name_locator.text
@@ -47,30 +48,37 @@ while True:
         add_1 = driver_g.find_element(By.XPATH, f"(//button[contains(text(), 'Add to cart')])[{product}]")
         add_1.click()
         print(f'You have chosen: {value_name_locator}\nPrice: {value_price_locator}\n')
+        time.sleep(1)
 
     def cart_button():
         enter_cart = driver_g.find_element(By.XPATH, '//a[@class ="shopping_cart_link"]')
         enter_cart.click()
+        print("Entering the shopping cart - success\n")
+        time.sleep(1)
 
     def checkout():
         check = driver_g.find_element(By.XPATH, '//button[@name="checkout"]')
         check.click()
+        print("Checkout - success\n")
+        time.sleep(1)
 
     def user_data():
         first_name_2 = driver_g.find_element(By.XPATH, "//input[@id='first-name']")
         first_name_2.send_keys(first_name)
-        print('Input first_name - успешно')
+        print('Input first_name - success')
         last_name_2 = driver_g.find_element(By.XPATH, "//input[@id='last-name']")
         last_name_2.send_keys(last_name)
-        print('Input last_name - успешно')
+        print('Input last_name - success')
         postal_code = driver_g.find_element(By.XPATH, "//input[@id='postal-code']")
         postal_code.send_keys(zip_code)
-        print('Input postal_code - успешно\n')
+        print('Input postal_code - success\n')
+        time.sleep(1)
 
     def continue_button():
         button_continue = driver_g.find_element(By.XPATH, "//input[@id='continue']")
         button_continue.click()
-        print('Pressing the "continue" key - успешно\n')
+        print('Pressing the "continue" key - success\n')
+
 
     def name_cart():
         name_cart_locator = driver_g.find_element(By.XPATH, '(//div[@class="cart_item"])/div[2]/a/div')
