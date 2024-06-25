@@ -11,18 +11,17 @@ while True:
     print(product)
 
     options = webdriver.ChromeOptions()
-    path_download = "C:\\Users\\finch\\PycharmProjects\\resourse\\download"
-    prefs = {'download.default_directory': path_download}
-    options.add_experimental_option('prefs', prefs)
     options.add_experimental_option("detach", True)
-    options.page_load_strategy = 'eager'
-    g = Service('C:\\Users\\finch\\PycharmProjects\\pythonSelenium\\chromedriver.exe')
+    g = Service()
     driver_g = webdriver.Chrome(options=options, service=g)
     base_url = 'https://www.saucedemo.com/'
+
 
     driver_g.get(base_url)
     driver_g.maximize_window()
     driver_g.implicitly_wait(10)
+
+    
     fak = Faker("en_US")
     first_name = fak.first_name()
     last_name = fak.last_name()
